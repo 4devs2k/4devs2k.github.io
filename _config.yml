@@ -1,7 +1,30 @@
+# _config.yml
 theme: minima
 title: 4devs2k
 description: Developer Community
+url: "https://4devs2k.github.io"
+baseurl: ""
+
+# Wichtige Includes
 include:
-  - _includes
-  - _sass
-  - assets # Wichtig für Fonts & CSS
+  - _includes # Für Hauptinhalte
+  - _sass # Für SCSS/CSS
+  - assets # Für Fonts, Bilder, CSS/JS
+
+# Sass-Konfiguration
+sass:
+  sass_dir: _sass
+  style: compressed
+  load_paths:
+    - _sass
+
+# Plugin-Sicherheit (für GitHub Pages)
+plugins:
+  - jekyll-sass-converter
+  - jekyll-include-cache
+
+# Weitere Einstellungen
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

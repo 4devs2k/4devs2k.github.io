@@ -44,6 +44,25 @@ Wir sind ein offenes Kollektiv von Programmierbegeisterten, die...
 - 🆘 Hilf wo du kannst - auch kleine Beiträge zählen!
 - 🎉 Feier gemeinsam Erfolge!
 
+## 📁 Folder Structure
+
+```text
+.
+├── assets
+│   ├── css
+│   │   └── styles.scss    # WICHTIG: Endet mit .scss
+│   ├── favicon.ico        # Muss existieren
+│   └── fonts
+│       └── comic/...      # Font-Dateien vorhanden
+├── _config.yml
+├── _includes
+│   └── main-content.md    # Mit korrekten Links
+└── _sass
+    ├── _comic.scss        # Font-Definitionen
+    └── custom.scss        # Haupt-SCSS-Import
+
+```
+
 ## 🏁 Getting Started
 
 ```bash
