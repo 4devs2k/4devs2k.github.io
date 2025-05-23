@@ -4,6 +4,4 @@ description: Developer Community
 include:
   - _includes
   - _sass
-sass:
-  sass_dir: _sass
-  style: compressed
+  - assets # Wichtig für Fonts & CSS
