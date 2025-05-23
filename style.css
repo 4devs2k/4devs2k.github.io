@@ -4,7 +4,7 @@ body {
   color: #24292e;
   background-color: #d7dadc;
   margin: 0;
-  padding: 20px;
+  padding: 1rem;
 }
 
 h1,
@@ -19,6 +19,16 @@ h3 {
   margin: 0 auto;
   padding: 2rem;
   background: whitesmoke;
-  border-radius: 10px;
+  border-radius: 1rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.steps {
+  background-color: #252525;
+  padding: 1em;
+  display: block;
+  white-space: pre-wrap;
+  border-radius: 1rem;
+  font-family: monospace;
+  color: whitesmoke;
 }
