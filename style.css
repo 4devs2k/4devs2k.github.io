@@ -2,7 +2,8 @@ body {
   font-family: "Comic Neue", cursive;
   line-height: 1.6;
   color: #24292e;
-  background-color: #d7dadc;
+  /* background-color: #d7dadc; */
+  background-color: #0D161F;
   margin: 0;
   padding: 1rem;
 }
@@ -18,7 +19,8 @@ h3 {
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
-  background: whitesmoke;
+  /* background: whitesmoke; */
+  background: #1D252E;
   border-radius: 1rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
