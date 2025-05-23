@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 # 👋 Willkommen bei 4devs2k!
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

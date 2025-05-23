@@ -1,6 +1,6 @@
 ---
-layout: home
+layout: default
 title: 4devs2k
 ---
 
-{% raw %}{% include README.md %}{% endraw %}
+{% include README.md %}
