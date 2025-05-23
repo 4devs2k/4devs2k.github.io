@@ -1,0 +1,20 @@
+---
+---
+@import "custom";
+
+body {
+  font-family: "Comic Neue", cursive;
+  line-height: 1.6;
+  color: #24292e;
+  background-color: #d7dadc;
+
+  h1, h2, h3 {
+    font-weight: 700;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+}

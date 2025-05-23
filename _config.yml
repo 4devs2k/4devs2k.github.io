@@ -1,4 +1,9 @@
 theme: minima
 title: 4devs2k
 description: Developer Community
-include: ['_includes']
+include:
+  - _includes
+  - _sass
+sass:
+  sass_dir: _sass
+  style: compressed

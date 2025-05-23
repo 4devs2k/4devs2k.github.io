@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 
 # 👋 Willkommen bei 4devs2k!
 
