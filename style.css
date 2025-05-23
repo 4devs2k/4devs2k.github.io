@@ -15,7 +15,7 @@ h3 {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
   background: whitesmoke;
@@ -31,4 +31,80 @@ h3 {
   border-radius: 1rem;
   font-family: monospace;
   color: whitesmoke;
+  overflow-x: auto;
+}
+
+header,
+section,
+footer {
+  margin-bottom: 2rem;
+}
+
+.badges img {
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+ul,
+ol {
+  padding-left: 1.2rem;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .slogan {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .badges img {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .steps {
+    font-size: 0.8rem;
+  }
 }
