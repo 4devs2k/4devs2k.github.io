@@ -4,7 +4,7 @@ body {
   /* color: #24292e; */
   color: whitesmoke;
   /* background-color: #d7dadc; */
-  background-color: #0D161F;
+  background-color: #0d161f;
   margin: 0;
   padding: 1rem;
 }
@@ -21,20 +21,21 @@ h3 {
   margin: 0 auto;
   padding: 2rem;
   /* background: whitesmoke; */
-  background: #1D252E;
+  background: #34404e;
   border-radius: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 3px 2px rgb(236 236 236 / 75%);
 }
 
 .steps {
-  background-color: #252525;
+  background-color: #2f2f2f;
   padding: 1em;
   display: block;
   white-space: pre-wrap;
-  border-radius: 1rem;
   font-family: monospace;
   color: whitesmoke;
   overflow-x: auto;
+  border-radius: 1rem;
+  border: 1px solid whitesmoke;
 }
 
 header,
